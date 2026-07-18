@@ -68,11 +68,10 @@ h1, h2, h3, h4, .app-heading, .gallery-title {
     justify-content: flex-start;
 }
 
-/* Header punya kotak kiri (logo) dan kotak kanan (bekas tombol Deploy) yang
-   tetap memakan lebar walau kosong, sehingga posisi menu tidak pernah benar
-   benar simetris. Keduanya disembunyikan total; deretan menu (.rc-overflow)
-   dibiarkan sebagai satu satunya isi header. */
-[data-testid="stToolbar"] > div > :first-child:not(.rc-overflow),
+/* Kotak kanan header (bekas tombol Deploy) memakan lebar walau kosong dan
+   membuat posisi menu tidak simetris, jadi disembunyikan. Kotak kiri TIDAK
+   boleh disembunyikan: di layar sempit Streamlit memindahkan navigasi ke
+   menu samping dan menaruh tombol pembukanya di kotak kiri tersebut. */
 [data-testid="stToolbar"] > div > :last-child:not(.rc-overflow) {
     display: none;
 }
