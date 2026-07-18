@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# Model files (diunduh dari Hugging Face Hub saat aplikasi berjalan)
+models/
+
+# Dokumen dan aset lama, tidak dipakai aplikasi
+docs/
+output/
+assets/archive/
+
+# Lokal
+.claude/
+.streamlit/secrets.toml
