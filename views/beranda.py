@@ -16,7 +16,6 @@ render_hero(
     "membantu Anda memeriksa apakah sebuah gambar lukisan merupakan hasil buatan AI atau buatan "
     "manusia, menggunakan model Transfer Learning ResNet-50, lengkap dengan tingkat keyakinan dan "
     "peta area gambar yang diperhatikan model.",
-    chip="Skripsi · Sistem Informasi · Universitas Gunadarma 2026",
 )
 
 render_stat_row([
