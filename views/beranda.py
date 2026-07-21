@@ -8,7 +8,7 @@ from src.model import compute_gradcam, predict
 from src.theme import render_divider, render_hero, render_stat_row
 
 render_hero(
-    "Pendeteksi Gambar <span class='accent'>Lukisan Buatan AI</span>",
+    "Deteksi Gambar <span class='accent'>Lukisan Buatan AI</span>",
     "Beberapa tahun belakangan, teknologi kecerdasan buatan berkembang sangat pesat, termasuk untuk "
     "membuat gambar dari teks lewat model text-to-image seperti DALL-E, Midjourney, dan Stable "
     "Diffusion. Hasilnya bisa sangat mirip dengan lukisan buatan tangan manusia, dan tidak jarang "
